@@ -1,14 +1,7 @@
-# Welcome to your CDK TypeScript project
+# AWS DMS Batch Data Ingestion Setup
 
-This is a blank project for CDK development with TypeScript.
+![alt text](image.jpg)
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+This repository contains the necessary configurations and code to set up an automated batch data ingestion pipeline using AWS DMS, AWS Lambda, and AWS CDK. This setup will enable the ingestion of data from a PostgreSQL RDS instance to an Amazon S3 bucket on a daily schedule.
 
-## Useful commands
-
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `npx cdk deploy`  deploy this stack to your default AWS account/region
-* `npx cdk diff`    compare deployed stack with current state
-* `npx cdk synth`   emits the synthesized CloudFormation template
+This is a supporting material to my blog post entitled, Streamlined Batch Data Ingestion with AWS Data Migration Service (DMS), Amazon EventBridge, and AWS Lambda
